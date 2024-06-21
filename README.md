@@ -4,7 +4,7 @@ Absolutely! Here’s a README file tailored specifically for GitHub, formatted i
 
 # Vue 3 Login Project
 
-![Project Logo](https://github.com/marvinrs/blob/master/Login_with_Vue3/public/readme/login.png)
+![Project Logo](https://github.com/marvinrs/blob/master/Login_with_Vue3/public/readme/login.png?raw=true)
 
 This repository contains a simple Vue 3 project showcasing a basic login functionality using JWT (JSON Web Tokens). It utilizes Vue Router for navigation and Vuex for state management.
 
