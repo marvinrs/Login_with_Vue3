@@ -1,26 +1,20 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <div id="app">
+    <!-- Cabeçalho ou barra de navegação se aplicável -->
+    <router-view />
+    <!-- Rodapé ou outros elementos globais se aplicável -->
+  </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
-
 export default {
   name: 'App',
-  components: {
-    HelloWorld
-  }
-}
+  // Importe o roteador criado
+  // Se você estiver usando Vue 3 com Composition API, pode usar o setup() para configurar o roteador
+  // Se estiver usando Vue 2 ou Vue 3 com Options API, o roteador é normalmente importado diretamente
+};
 </script>
 
 <style>
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
-}
+/* Estilos globais, se necessário */
 </style>
