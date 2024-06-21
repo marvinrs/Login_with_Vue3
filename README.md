@@ -112,4 +112,4 @@ Feel free to customize the URLs, paths, and content to fit your actual project s
 
 Marvin Antônio Rêgo Cavalcanti dos Santos - @marvinrs (https://github.com/marvinrs)
 
-Thanks to visiting my ppage and good coding!
+Thanks to visiting my page and good coding!
