@@ -5,12 +5,12 @@
     <form @submit.prevent="login">
       <div class="form-group">
         <label for="username">Usuário:</label>
-        <input type="text" id="username" v-model="username" required>
+        <input type="text" id="username" v-model="username" required style="width: 95%;">
       </div>
 
       <div class="form-group">
         <label for="password">Senha:</label>
-        <input type="password" id="password" v-model="password" required>
+        <input type="password" id="password" v-model="password" required style="width: 95%;">
       </div>
 
       <button type="submit">Entrar</button>
@@ -18,6 +18,7 @@
 
     <div class="additional-links">
       <router-link to="/register">Registrar-se</router-link>
+      <span class="link-separator"></span>
       <router-link to="/forgot-password">Esqueci a senha</router-link>
     </div>
   </div>
@@ -82,10 +83,18 @@ button:hover {
 }
 
 .additional-links {
+  display: flex;
+  justify-content: center; /* Centraliza os links horizontalmente */
   margin-top: 10px;
 }
 
 .additional-links router-link {
-  margin-right: 10px;
+  /* Estilização dos links */
+  text-decoration: none; /* Remove o sublinhado padrão */
+  color: #333; /* Cor do texto dos links */
+}
+
+.link-separator {
+  margin: 0 10px; /* Espaço entre os links */
 }
 </style>
