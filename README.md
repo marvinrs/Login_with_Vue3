@@ -107,3 +107,9 @@ Distributed under the MIT License. See `LICENSE` for more information.
 ---
 
 Feel free to customize the URLs, paths, and content to fit your actual project structure and preferences. This README is designed to provide a comprehensive overview of your Vue 3 Login Project on GitHub, helping users and contributors understand how to use, install, and contribute to the project effectively. Adjustments can be made to further personalize it based on specific project details.
+
+## Author
+
+Marvin Antônio Rêgo Cavalcanti dos Santos - @marvinrs (https://github.com/marvinrs)
+
+Thanks to visiting my ppage and good coding!
